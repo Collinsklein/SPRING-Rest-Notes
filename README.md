@@ -15,6 +15,7 @@ Core Concepts:
 
 Controllers: Use @RestController to define REST endpoints.
 RequestMapping: Maps HTTP requests to handler methods using @RequestMapping and its derived annotations (@GetMapping, @PostMapping).
+
 Chapter 2: Setting Up a Spring REST Project
 Project Structure:
 
@@ -28,6 +29,8 @@ Configuration:
 
 Spring Boot simplifies setup through application.properties or application.yml.
 Details on port configuration, database connections, and other essential properties.
+
+
 Chapter 3: Building Your First REST Endpoint
 Step-by-Step Implementation:
 
