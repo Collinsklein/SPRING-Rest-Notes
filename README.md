@@ -1,4 +1,52 @@
 # SPRING-Rest-Notes
+
+Chapter 1: Introduction to Spring REST
+Overview of REST: REST (Representational State Transfer) is a software architectural style that provides guidelines for creating scalable web services.
+
+Focuses on resources, represented by URLs.
+Utilizes standard HTTP methods (GET, POST, PUT, DELETE) for interaction.
+Stateless communication between client and server.
+Spring REST Basics:
+
+Built on top of Spring Framework.
+Offers tools and annotations for building RESTful services efficiently.
+Emphasizes simplicity and ease of integration with other Spring projects.
+Core Concepts:
+
+Controllers: Use @RestController to define REST endpoints.
+RequestMapping: Maps HTTP requests to handler methods using @RequestMapping and its derived annotations (@GetMapping, @PostMapping).
+Chapter 2: Setting Up a Spring REST Project
+Project Structure:
+
+Standard Maven/Gradle project layout.
+Important directories: src/main/java for source code, src/main/resources for configurations.
+Dependencies:
+
+Essential dependencies include Spring Web, Spring Boot Starter, and optionally, testing libraries like JUnit or Mockito.
+Dependency management tools (Maven or Gradle) are used to handle these.
+Configuration:
+
+Spring Boot simplifies setup through application.properties or application.yml.
+Details on port configuration, database connections, and other essential properties.
+Chapter 3: Building Your First REST Endpoint
+Step-by-Step Implementation:
+
+Create a @RestController class.
+Define methods annotated with @GetMapping, @PostMapping, etc., to handle specific HTTP requests.
+Response Handling:
+
+Use ResponseEntity for fine-grained control over HTTP status and response body.
+Return objects are automatically converted to JSON (using Jackson library).
+Error Handling:
+
+Spring provides default error responses.
+Custom exception handling can be implemented using @ControllerAdvice and @ExceptionHandler.
+Testing:
+
+Importance of testing endpoints using tools like Postman or via unit tests using Spring’s MockMvc.
+
+
+
 Introduction to REST
 KEY Concepts:
 •	REST fundamentals
